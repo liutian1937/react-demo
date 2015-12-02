@@ -1,0 +1,39 @@
+{
+  "name": "helloworld",
+  "version": "0.0.1",
+  "description": "reactjs demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-router" : "*",
+    "reflux": "*",
+    "css-loader": "*",
+    "jsx-loader": "*",
+    "style-loader": "*",
+    "url-loader": "*",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-plugin-react-transform": "*"
+  },
+  "devDependencies": {
+    "expect": "*",
+    "express": "*",
+    "jsdom": "*",
+    "mocha": "*",
+    "node-libs-browser": "*",
+    "react-addons-test-utils": "*",
+    "react-transform-hmr": "*",
+    "webpack": "*",
+    "webpack-dev-middleware": "*",
+    "webpack-hot-middleware": "*"
+  },
+  "license": "ISC"
+}

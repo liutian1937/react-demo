@@ -1,0 +1,51 @@
+input.active,select.active{
+    border-color: #0086b3;
+    color: #000;
+    font-weight: bold;
+}
+
+input{
+    height: 4rem;
+    color: #000;
+    font-size: 1.9rem;
+    font-weight: 300;
+    outline: none;
+    border:1px solid #ddd;
+}
+
+.ui-form-item{
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.ui-form-item:after{
+    content: '.';
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    display: block;
+}
+.ui-form-item-label{
+    width: 100px;
+    float: left;
+    vertical-align: middle;
+}
+
+.ui-form-item-wrap{
+    margin-left: 100px;
+    margin-right: 12px;
+}
+.ui-form-item-wrap input{
+    width: 100%;
+    border: none;
+    border-left: 1px solid #ccc;
+    padding: 5px 5px;
+}
+
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
